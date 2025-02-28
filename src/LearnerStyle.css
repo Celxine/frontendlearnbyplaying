@@ -23,13 +23,13 @@
     padding: 40px;
     border-radius: 20px;
     text-align: center;
-    position: relative; /* Needed for z-index */
-    z-index: 1; /* Ensure it's above the video */
-    max-width: 80%; /* Adjust as needed */
+    position: relative; 
+    z-index: 1; 
+    max-width: 80%;
     box-shadow: 
-    inset 0 2px 4px rgba(0, 0, 0, 0.3), /* Inner shadow for depth */
-    0 4px 8px rgba(0, 0, 0, 0.3); /* Outer shadow */
-  border: 2px solid rgba(100, 100, 120, 0.5); /* Darker outline */
+    inset 0 2px 4px rgba(0, 0, 0, 0.3),
+    0 4px 8px rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(100, 100, 120, 0.5);
   }
   
   .title {
@@ -47,7 +47,7 @@
   }
   
   .lets-go-button {
-    background: linear-gradient(135deg, #42a5f5, #29b6f6); /* Gradient button */
+    background: linear-gradient(135deg, #42a5f5, #29b6f6); 
     color: white;
     border: 2px;
     padding: 15px 30px;
@@ -63,7 +63,7 @@
     transform: scale(1.05);
   }
   
-  /* Responsive adjustments */
+
   @media (max-width: 768px) {
     .content-box {
       padding: 30px;

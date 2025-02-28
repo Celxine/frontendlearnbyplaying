@@ -100,8 +100,7 @@
   .nav-button:hover {
     transform: scale(1.05);
   }
-  
-  /* Responsive adjustments */
+ 
   @media (max-width: 768px) {
     .content-box {
       padding: 30px;
@@ -123,7 +122,7 @@
     }
   }
   
-  /* Added Styles */
+
   .processing-info-container::before,
   .processing-info-container::after {
     content: '';
@@ -149,4 +148,5 @@
   }
   
   .processing-info-container {
-      background-image: radial-gradient(circle, transparent 20%, yellow 21%, transparent 22%), radial-gradient(circle, transparent 30%, yellow 31%, transparent 32%), radial-gradient(circle, transparent 40%, yellow 41%,
+      background-image: radial-gradient(circle, transparent 20%, yellow 21%, transparent 22%), radial-gradient(circle, transparent 30%, yellow 31%, transparent 32%), radial-gradient(circle, transparent 40%, yellow 41%)
+  }

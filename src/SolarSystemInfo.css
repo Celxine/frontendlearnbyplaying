@@ -10,7 +10,7 @@
   overflow: hidden;
 }
 
-/* Video Background */
+
 .background-video {
   position: absolute;
   top: 0;
@@ -37,7 +37,7 @@
     width: 120%;
     height: 120%;
     transform: translate(-50%, -50%);
-    pointer-events: none; /* Prevents interaction */
+    pointer-events: none; 
   }
   
   .background-cover img {
@@ -145,7 +145,7 @@
   color: #2e0854;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
   .answers-grid {
     grid-template-columns: 1fr;
@@ -174,7 +174,7 @@
   }
 }
 
-/* Additional CSS for solar system page */
+
 .solar-system-container {
   width: 100%;
   min-height: 100vh;

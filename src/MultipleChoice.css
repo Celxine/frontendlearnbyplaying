@@ -30,7 +30,6 @@
     position: relative;
     overflow: hidden;
     border: 2px solid #333;
-    /* Add backdrop-filter for better text readability over video */
     backdrop-filter: blur(3px);
     z-index: 1;
   }
@@ -117,14 +116,14 @@
     line-height: 1.5;
   }
   
-  /* Remove the previous background styling */
+
   .title-card::before,
   .question-card::before,
   .explanation-card::before {
     display: none;
   }
   
-  /* Responsive adjustments */
+  
   @media (max-width: 768px) {
     .answers-grid {
       grid-template-columns: 1fr;

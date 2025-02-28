@@ -5,19 +5,18 @@ const SolarSystemInfo = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setVideoLoaded(true), 200); // Simulate instant start
+    setTimeout(() => setVideoLoaded(true), 200); 
   }, []);
 
   return (
     <div className="solar-system-container">
-      {/* Background Cover Image (Prevents Blank Screen) */}
-      {!videoLoaded && (
+           {!videoLoaded && (
         <div className="background-cover">
           <img src="https://source.unsplash.com/1600x900/?space,galaxy" alt="Solar System" />
         </div>
       )}
 
-      {/* YouTube Video Background */}
+     
       {videoLoaded && (
         <div className="video-background">
           <iframe
@@ -30,7 +29,6 @@ const SolarSystemInfo = () => {
         </div>
       )}
 
-      {/* Content */}
       <div className="info-card title-card">
         <h1>Our Solar System</h1>
       </div>

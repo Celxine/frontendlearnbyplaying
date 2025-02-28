@@ -39,7 +39,7 @@ const SignUpForm = () => {
         zIndex: -1,
       }}
     >
-      {/* Background decorations */}
+      
       <div className="decoration decoration-1"></div>
       <div className="decoration decoration-2"></div>
 
